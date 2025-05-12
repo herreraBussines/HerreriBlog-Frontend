@@ -2,21 +2,24 @@ import styled from "@emotion/styled";
 
 const FilterContainer = styled.div`
   display: flex;
-  gap: 1rem;
-  margin: 1.5rem 0;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 2rem 0;
 `;
 
 const FilterButton = styled.button`
   background: ${({ active, theme }) => active ? theme.colors.accent : theme.colors.primary};
   color: white;
   border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 500;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
 
   &:hover {
-    transform: translateY(-2px);
+    background: ${({ theme }) => theme.colors.secondary};
+    transform: scale(1.05);
   }
 `;
 
