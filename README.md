@@ -1,12 +1,56 @@
-# React + Vite
+📝 HerreriBlog - Frontend
+Bienvenido a HerreriBlog, una plataforma educativa desarrollada con React + Vite que permite a estudiantes y docentes compartir publicaciones académicas y dejar comentarios públicos sin necesidad de autenticación.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el código del frontend, construido con herramientas modernas de desarrollo web.
 
-Currently, two official plugins are available:
+🔗 Repositorio del proyecto: HerreriBlog-Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tecnologías
+⚛️ React 19
 
-## Expanding the ESLint configuration
+⚡️ Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Emotion (styled components)
+
+🔄 React Router DOM 7
+
+🔔 react-hot-toast
+
+📦 PropTypes
+
+📂 Estructura modular basada en componentes
+
+🧑‍💻 Instalación y ejecución local
+Clona el repositorio:
+git clone https://github.com/herreraBussines/HerreriBlog-Frontend.git
+cd HerreriBlog-Frontend
+
+Instala las dependencias:
+npm install
+
+Ejecuta la aplicaciòn
+npm run dev
+
+Accede a la app desde tu navegador:
+http://localhost:5173
+
+🌐 Configuración del entorno
+Asegúrate de que el backend (https://github.com/herreraBussines/HerreriBlog-Backend.git) esté corriendo antes de hacer peticiones.
+
+📌 Funcionalidades principales
+📚 Visualización de publicaciones académicas
+
+🔍 Filtro por cursos
+
+💬 Comentarios públicos en tiempo real
+
+🧠 Interfaz moderna, responsiva y accesible
+
+🎓 Enfoque en aprendizaje y comunicación estudiantil
+
+🧠 Autores
+Proyecto desarrollado por Herrera como parte del laboratorio del segundo bimestre en Kinal, guiado por el profesor Braulio Echeverría.
+
+📄 Licencia
+Este proyecto se encuentra bajo la Licencia MIT.
+
