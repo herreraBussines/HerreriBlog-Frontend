@@ -1,0 +1,76 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #121212;
+  color: #f8f9fa;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.post-card {
+  transition: all 0.3s ease;
+}
+
+.post-card a {
+  color: #da1e37;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.post-card a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+}
+/* Añade esto al final de tu index.css */
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background: #641220;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto; /* Esto lo mantiene abajo */
+}

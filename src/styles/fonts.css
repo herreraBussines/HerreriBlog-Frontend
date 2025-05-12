@@ -1,0 +1,18 @@
+@import "@fontsource/playfair-display";
+@import "@fontsource/inter";
+@import "@fontsource/poppins";
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #F8F9FA;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+}
